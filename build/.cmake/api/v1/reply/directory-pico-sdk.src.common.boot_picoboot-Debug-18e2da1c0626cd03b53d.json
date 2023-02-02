@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/common/boot_picoboot",
+		"source" : "C:/Users/zuani/source/repos/pico-sdk/src/common/boot_picoboot"
+	}
+}

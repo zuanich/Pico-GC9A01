@@ -716,7 +716,7 @@ void gc9a01_text(gc9a01_GC9A01_obj_t *self, GFXfont *font, char *str, uint16_t x
         bg_color = _swap_bytes(BLACK);
 
     uint8_t wide = width / 8;
-    ulong buf_size = width * height * 2;
+    long buf_size = width * height * 2;
 
 	if (self->buffer_size == 0) {
 		self->i2c_buffer = malloc(buf_size);
