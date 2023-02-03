@@ -5,7 +5,7 @@ include(../pico-sdk/tools/CMakeLists.txt)
 
 project(GC9A01_test C CXX)
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 17)
+#set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
@@ -20,8 +20,10 @@ target_link_libraries(GC9A01_test
     hardware_adc
 )
 
-pico_enable_stdio_usb(GC9A01_test 1)
-pico_enable_stdio_uart(GC9A01_test 0)
+pico_enable_stdio_usb(GC9A01_test 0)
+pico_enable_stdio_uart(GC9A01_test 1)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(GC9A01_test)
+
+#RM

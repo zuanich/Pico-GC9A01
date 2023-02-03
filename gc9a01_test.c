@@ -92,8 +92,8 @@ int main() {
                         416000,420000,428000,432000,436000,438000,440000,448000,
                         0};
 
-  vreg_set_voltage(VREG_VOLTAGE_1_30);
-  set_sys_clock_khz(306000, true); //Last 306000
+  //vreg_set_voltage(VREG_VOLTAGE_1_30);
+  //set_sys_clock_khz(306000, true); //Last 306000
   stdio_init_all();
 
   int8_t rslt;
@@ -121,7 +121,10 @@ int main() {
   adc_select_input(1);
 
   while (true) {
-        sprintf(buf, "%.2f C", M_TWOPI);
+        uint16_t result = adc_read();
+        sprintf(buf, "%.2f C", result);
+        const float conversion_factor = 3.3f / (1 << 12);
+        printf("Raw value: 0x%03x, voltage: %f V\n", result, result * conversion_factor);
         gc9a01_text(&lcd, &font_bold, buf, 70, 100, CYAN, 0);
         sprintf(buf, "%.2f C", 20.0);
         gc9a01_text(&lcd, &font, buf, 75, 150, WHITE, 0);

@@ -78,6 +78,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
   "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
+  "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+  "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/GC9A01_test.dir/GC9A01/gc9a01.c.obj"

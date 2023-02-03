@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-g++.exe"
 		},
 		{
@@ -423,10 +423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -1503,7 +1503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/cmsis C:/Users/zuani/source/repos/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1744,6 +1744,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "b4f1dd66399b690a71d4bda536034090"
+		},
+		{
+			"name" : "_Python3_Interpreter_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Interpreter reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		},
 		{
 			"name" : "_Python3_NumPy_REASON_FAILURE",

@@ -42,6 +42,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
+  "LIB_PICO_STDIO_UART=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
   "LIB_PICO_SYNC_CORE=1"
@@ -100,6 +101,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/boot_stage2/include"
   "C:/Users/zuani/source/repos/pico-sdk/src/common/pico_binary_info/include"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/include"
+  "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/hardware_spi/include"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/hardware_adc/include"
   )
@@ -139,6 +141,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
+  "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "C:/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/C_/Users/zuani/source/repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/zuani/source/repos/Pico-GC9A01/GC9A01/gc9a01.c" "CMakeFiles/GC9A01_test.dir/GC9A01/gc9a01.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/GC9A01/gc9a01.c.obj.d"
   "C:/Users/zuani/source/repos/Pico-GC9A01/gc9a01_test.c" "CMakeFiles/GC9A01_test.dir/gc9a01_test.c.obj" "gcc" "CMakeFiles/GC9A01_test.dir/gc9a01_test.c.obj.d"
